@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Epiloque-Regular';
+    src: url('../../fonts/epilogue.regular.ttf');
+}
+
+@font-face {
+    font-family: 'Epiloque-Bold';
+    src: url('../../fonts/epilogue.bold.ttf');
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_title{
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: Epiloque-Bold, sans-serif;
+}

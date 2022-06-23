@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Epiloque-Regular';
+    src: url('../../fonts/epilogue.regular.ttf');
+}
+
+.subtitle{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.64);
+    font-family: Epiloque-Regular, sans-serif;
+    margin: 35px auto 0;
+    text-align: center;
+    width: 570px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .subtitle{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .subtitle{
+        width: 329px;
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Epiloque-Black';
+    src: url('../../fonts/epilogue.black.ttf');
+}
+
+.btn{
+    font-size: 14px;
+    font-family: Epiloque-Black, sans-serif;
+    color: white;
+    padding: 18px 35px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border-radius: 6px;
+}
+

@@ -1,0 +1,13 @@
+.btn{
+    font-family: Epiloque-Black, sans-serif;
+    font-size: 14px;
+    color: #391400;
+    border: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    padding: 16px 43px;
+    display: block;
+    margin: 80px auto 0 auto;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Epiloque-ExtraBold';
+    src: url('../../fonts/epilogue.extrabold.ttf');
+}
+
+.title{
+    font-size: 72px;
+    color: #ffffff;
+    font-family: Epiloque-ExtraBold, sans-serif;
+    margin: 114px auto 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .title{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title{
+        font-size: 56px;
+    }
+}

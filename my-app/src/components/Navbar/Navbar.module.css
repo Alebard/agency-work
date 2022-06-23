@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .navbar{
+        justify-content: center;
+    }
+}

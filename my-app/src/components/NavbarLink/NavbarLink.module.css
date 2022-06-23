@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Epiloque-Regular';
+    src: url('../../fonts/epilogue.regular.ttf');
+}
+
+.link{
+    color: #ffffff;
+    font-family: Epiloque-Regular, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
