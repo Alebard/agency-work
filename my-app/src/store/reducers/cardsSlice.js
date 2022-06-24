@@ -1,10 +1,10 @@
-import {cards} from "../../cards/cards";
+import {cards, CARDS_TYPES} from "../../cards/cards";
 import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
     cardsList: cards,
     cardSelected: '',
-    activeFilter: 'Show All',
+    activeFilter: CARDS_TYPES.SHOW_ALL,
 }
 
 export const cardsSlice = createSlice({
