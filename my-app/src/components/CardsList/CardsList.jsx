@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import classes from "./CardsList.module.css";
 import CardItem from "../CardItem/CardItem";
 import { useSelector} from "react-redux";
+import {CARDS_TYPES} from "../../cards/cards";
 
 
 const CardsList = ({limit}) => {
@@ -9,7 +10,7 @@ const CardsList = ({limit}) => {
     const [cards, setCards] = useState([])
 
     useEffect(() => {
-        if(activeFilter === 'Show All'){
+        if(activeFilter === CARDS_TYPES.SHOW_ALL){
             setCards(cardsList.slice(0,limit))
         }else{
             setCards(cardsList.filter((card) => card.type === activeFilter).slice(0,limit))

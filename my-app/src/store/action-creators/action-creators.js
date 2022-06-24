@@ -1,5 +1,4 @@
 import {cardsSlice} from "../reducers/cardsSlice";
-import {createAsyncThunk, current} from "@reduxjs/toolkit";
 
 export function selectCard(cardName, cardSelected, className) {
     const {changeCardByDelete} = cardsSlice.actions

@@ -8,95 +8,103 @@ import keyboard from '../images/keyboard.png'
 import sport from '../images/sport.png'
 import workmedia from '../images/work-media.png'
 
+export const CARDS_TYPES ={
+    SHOW_ALL: 'Show All',
+    DESIGN: 'Design',
+    BRANDING: 'Branding',
+    ILLUSTRATION: 'Illustration',
+    MOTION: 'Motion',
+}
+
 export const cards = [
     {
         name: 'SOFA',
-        type: 'Design',
+        type: CARDS_TYPES.DESIGN,
         img: sofa
     },
     {
         name: 'KeyBoard',
-        type: 'Branding',
+        type: CARDS_TYPES.BRANDING,
         img: keyboard
     },
     {
         name: 'Work Media',
-        type: 'Illustration',
+        type: CARDS_TYPES.ILLUSTRATION,
         img: workmedia
     },
     {
         name: 'DDDone',
-        type: 'Motion',
+        type: CARDS_TYPES.MOTION,
         img: dddone
     },
     {
         name: 'Abstract',
-        type: 'Design',
+        type: CARDS_TYPES.DESIGN,
         img: abstract
     },
     {
         name: 'HandP',
-        type: 'Branding',
+        type: CARDS_TYPES.BRANDING,
         img: handp
     },
     {
         name: 'Architest',
-        type: 'Motion',
+        type: CARDS_TYPES.MOTION,
         img: architest
     },
     {
         name: 'Calc',
-        type: 'Design',
+        type: CARDS_TYPES.DESIGN,
         img: calc
     },
     {
         name: 'Sport',
-        type: 'Branding',
+        type: CARDS_TYPES.BRANDING,
         img: sport
     },
     {
         name: 'SOFA2',
-        type: 'Design',
+        type: CARDS_TYPES.DESIGN,
         img: sofa
     },
     {
         name: 'KeyBoard2',
-        type: 'Branding',
+        type: CARDS_TYPES.BRANDING,
         img: keyboard
     },
     {
         name: 'Work Media2',
-        type: 'Illustration',
+        type: CARDS_TYPES.ILLUSTRATION,
         img: workmedia
     },
     {
         name: 'DDDone2',
-        type: 'Motion',
+        type: CARDS_TYPES.MOTION,
         img: dddone
     },
     {
         name: 'Abstract2',
-        type: 'Design',
+        type: CARDS_TYPES.DESIGN,
         img: abstract
     },
     {
         name: 'HandP2',
-        type: 'Branding',
+        type: CARDS_TYPES.BRANDING,
         img: handp
     },
     {
         name: 'Architest2',
-        type: 'Motion',
+        type: CARDS_TYPES.MOTION,
         img: architest
     },
     {
         name: 'Calc2',
-        type: 'Design',
+        type: CARDS_TYPES.DESIGN,
         img: calc
     },
     {
         name: 'Sport2',
-        type: 'Branding',
+        type: CARDS_TYPES.BRANDING,
         img: sport
     },
 

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Header from "./components/Header/Header";
 import './reset.css'
 import Main from "./components/Main/Main";
@@ -6,9 +6,6 @@ import Main from "./components/Main/Main";
 
 
 function App() {
-
-
-
     return (
         <>
             <Header/>
